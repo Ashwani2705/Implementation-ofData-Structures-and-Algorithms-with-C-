@@ -41,7 +41,7 @@ int main()
       cin>>arr[i];
       vector<int>v;
       v=linearprobing( hashsize,s,arr);
-      for(int i=0;i<s;i++)
+      for(int i=0;i<hashsize;i++)
       {
           cout<<v[i]<<endl;
       }
